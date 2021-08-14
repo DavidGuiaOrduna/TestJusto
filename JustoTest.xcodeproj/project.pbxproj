@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ADE40BC26C884B000ACD21C /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE40B126C884B000ACD21C /* HomePresenter.swift */; };
+		2ADE40BD26C884B000ACD21C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE40B326C884B000ACD21C /* HomeViewController.swift */; };
+		2ADE40BE26C884B000ACD21C /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE40B526C884B000ACD21C /* HomeRouter.swift */; };
+		2ADE40BF26C884B000ACD21C /* HomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE40B726C884B000ACD21C /* HomeModule.swift */; };
+		2ADE40C026C884B000ACD21C /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE40B926C884B000ACD21C /* HomeModel.swift */; };
+		2ADE40C126C884B000ACD21C /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADE40BB26C884B000ACD21C /* HomeInteractor.swift */; };
 		2AE497E226C748E40060585B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE497E126C748E40060585B /* AppDelegate.swift */; };
 		2AE497E426C748E40060585B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE497E326C748E40060585B /* SceneDelegate.swift */; };
-		2AE497E626C748E40060585B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE497E526C748E40060585B /* ViewController.swift */; };
 		2AE497E926C748E40060585B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE497E726C748E40060585B /* Main.storyboard */; };
 		2AE497EB26C748E40060585B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE497EA26C748E40060585B /* Assets.xcassets */; };
 		2AE497EE26C748E40060585B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE497EC26C748E40060585B /* LaunchScreen.storyboard */; };
+		E14097FC8FB4829037C63121 /* Pods_JustoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7F4A7CA95ED5745EE4310B /* Pods_JustoTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2ADE40B126C884B000ACD21C /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		2ADE40B326C884B000ACD21C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2ADE40B526C884B000ACD21C /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		2ADE40B726C884B000ACD21C /* HomeModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModule.swift; sourceTree = "<group>"; };
+		2ADE40B926C884B000ACD21C /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		2ADE40BB26C884B000ACD21C /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		2AE497DE26C748E40060585B /* JustoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE497E126C748E40060585B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AE497E326C748E40060585B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2AE497E526C748E40060585B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2AE497E826C748E40060585B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AE497EA26C748E40060585B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AE497ED26C748E40060585B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AE497EF26C748E40060585B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741E469B9242C161A56B1947 /* Pods-JustoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustoTest.release.xcconfig"; path = "Target Support Files/Pods-JustoTest/Pods-JustoTest.release.xcconfig"; sourceTree = "<group>"; };
+		8E7F4A7CA95ED5745EE4310B /* Pods_JustoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JustoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BD92DC47CC85FCFFE42097 /* Pods-JustoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustoTest.debug.xcconfig"; path = "Target Support Files/Pods-JustoTest/Pods-JustoTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,89 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14097FC8FB4829037C63121 /* Pods_JustoTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ADE40AE26C884B000ACD21C /* HomeJusto */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE40B826C884B000ACD21C /* EntityModel */,
+				2ADE40B626C884B000ACD21C /* Module */,
+				2ADE40BA26C884B000ACD21C /* Interactor */,
+				2ADE40AF26C884B000ACD21C /* UI */,
+			);
+			path = HomeJusto;
+			sourceTree = "<group>";
+		};
+		2ADE40AF26C884B000ACD21C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE40B026C884B000ACD21C /* Presenter */,
+				2ADE40B226C884B000ACD21C /* ViewController */,
+				2ADE40B426C884B000ACD21C /* Router */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2ADE40B026C884B000ACD21C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE40B126C884B000ACD21C /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2ADE40B226C884B000ACD21C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE40B326C884B000ACD21C /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2ADE40B426C884B000ACD21C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE40B526C884B000ACD21C /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2ADE40B626C884B000ACD21C /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE40B726C884B000ACD21C /* HomeModule.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		2ADE40B826C884B000ACD21C /* EntityModel */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE40B926C884B000ACD21C /* HomeModel.swift */,
+			);
+			path = EntityModel;
+			sourceTree = "<group>";
+		};
+		2ADE40BA26C884B000ACD21C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2ADE40BB26C884B000ACD21C /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		2AE497D526C748E40060585B = {
 			isa = PBXGroup;
 			children = (
 				2AE497E026C748E40060585B /* JustoTest */,
 				2AE497DF26C748E40060585B /* Products */,
+				E93BCDD4E355B65D06171419 /* Pods */,
+				5F0CB0FC471E8D859C980427 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +142,32 @@
 		2AE497E026C748E40060585B /* JustoTest */ = {
 			isa = PBXGroup;
 			children = (
+				2ADE40AE26C884B000ACD21C /* HomeJusto */,
 				2AE497E126C748E40060585B /* AppDelegate.swift */,
 				2AE497E326C748E40060585B /* SceneDelegate.swift */,
-				2AE497E526C748E40060585B /* ViewController.swift */,
 				2AE497E726C748E40060585B /* Main.storyboard */,
 				2AE497EA26C748E40060585B /* Assets.xcassets */,
 				2AE497EC26C748E40060585B /* LaunchScreen.storyboard */,
 				2AE497EF26C748E40060585B /* Info.plist */,
 			);
 			path = JustoTest;
+			sourceTree = "<group>";
+		};
+		5F0CB0FC471E8D859C980427 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F4A7CA95ED5745EE4310B /* Pods_JustoTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E93BCDD4E355B65D06171419 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7BD92DC47CC85FCFFE42097 /* Pods-JustoTest.debug.xcconfig */,
+				741E469B9242C161A56B1947 /* Pods-JustoTest.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AE497F226C748E40060585B /* Build configuration list for PBXNativeTarget "JustoTest" */;
 			buildPhases = (
+				D02A33A025B9DAA49CB4B9E6 /* [CP] Check Pods Manifest.lock */,
 				2AE497DA26C748E40060585B /* Sources */,
 				2AE497DB26C748E40060585B /* Frameworks */,
 				2AE497DC26C748E40060585B /* Resources */,
+				2C0A93852475A25DD6C3FDCC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +237,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C0A93852475A25DD6C3FDCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JustoTest/Pods-JustoTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JustoTest/Pods-JustoTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JustoTest/Pods-JustoTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D02A33A025B9DAA49CB4B9E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JustoTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2AE497DA26C748E40060585B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AE497E626C748E40060585B /* ViewController.swift in Sources */,
+				2ADE40BF26C884B000ACD21C /* HomeModule.swift in Sources */,
+				2ADE40BC26C884B000ACD21C /* HomePresenter.swift in Sources */,
 				2AE497E226C748E40060585B /* AppDelegate.swift in Sources */,
+				2ADE40C126C884B000ACD21C /* HomeInteractor.swift in Sources */,
+				2ADE40C026C884B000ACD21C /* HomeModel.swift in Sources */,
 				2AE497E426C748E40060585B /* SceneDelegate.swift in Sources */,
+				2ADE40BD26C884B000ACD21C /* HomeViewController.swift in Sources */,
+				2ADE40BE26C884B000ACD21C /* HomeRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +435,7 @@
 		};
 		2AE497F326C748E40060585B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7BD92DC47CC85FCFFE42097 /* Pods-JustoTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +454,7 @@
 		};
 		2AE497F426C748E40060585B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741E469B9242C161A56B1947 /* Pods-JustoTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
